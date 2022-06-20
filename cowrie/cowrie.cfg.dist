@@ -802,11 +802,11 @@ format = text
 #
 [output_mysql]
 enabled = true
-host = 172.31.0.181
+host = mysql
 database = cowrie
 username = cowrie
 password = cowrie
-port = 63306
+port = 3306
 debug = false
 
 # Rethinkdb output module
