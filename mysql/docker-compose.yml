@@ -7,7 +7,7 @@ services:
     environment:
         MYSQL_ROOT_PASSWORD: root
     volumes:
-      - /docker/mariadb/db_data:/var/lib/mysql
-      - /docker/mariadb/my.cnf:/etc/mysql/my.cnf
+      - ./mariadb/db_data:/var/lib/mysql
+      - ./mariadb/my.cnf:/etc/mysql/my.cnf
     ports:
-      - 63306:3306
+      - 3306:3306
